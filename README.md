@@ -15,24 +15,14 @@ This project requires Python 3.x and the following Python libraries installed:
 * seaborn
 * matplotlib.pyplot
 
-# Procedure
+## Procedure
 1- I've checked the data and how it looks like: Features types, nulls values, visualizations, descriptive statistics
 2- Cleaning the data: remove unnecessary columns and rows that are outliers (2 rows)
-
 3- Data Wrangling: did a feature engineering with some columns by separating them into many columns -as much as needed- to come with better features for the analysis. Also, changing the data type of categorical features from categorical variables into dummy/indicator variables.
-
 4- Implementation of machine learning: 
 - Supervised learning and unsupervised learning algorithms were used in this analysis.
 - Supervised learning: linear regression and random forest regression 
 - Unsupervised learning: logistic regression and random forest classifier
-
- 
-
-
-
-
-
-
 
 ## Summary & Results
 In this project, I've tried regression to predict delay time and Classification to determine the flight status to be on time or will be delayed.
@@ -52,22 +42,15 @@ In this project, I've tried regression to predict delay time and Classification 
 
 
 2- Supervised Learning approach results:
-
 - The metric that has been used for regression is the r2 score, we have a good solution as we the score get that is close to 1.0.
-
 - The result of the linear regression approach was off. this might highly indicate that there is no linear relationship between the features and the target feature. On the contrary, the result of the random forest algorithm was better with an accuracy of 0.5258. However, both approaches emphasize that the regression approach (supervised learning) on this data is not really is a good idea.
 
-
-
 3- Unsupervised Learning approach results:
-
 - The metric that used was the accuracy score. 
 - Logistic regression classifier got an accuracy of 0.7284 which is less than the accuracy obtained by random forest classifier (0.7789)
 
 ## Conclusion
-
 The classification approach gave us better results!
 
-# Acknowledgment
-
+## Acknowledgment
 Much thanks to those who helped me to get the data, who I'm sure will read this ReadMe (cannot put their names based on their request) and to Udacity for putting my skills into action!
