@@ -2,9 +2,7 @@
 
 ## Motivation
 
-Flight delays cause a lot of problems for both airports and individuals.
-
-in this analysis, I've attempted to tackle flight delays using machine learning. you can find a detailed explanation on a medium post [here](https://medium.com/@azalamri3/predicting-flights-delays-using-machine-learning-bfe24999dee4)
+Flight delays cause a lot of problems for both airports and individuals Thats where the idea of this analysis came from, I've attempted to tackle flight delays using machine learning. you can find a detailed explanation on a medium post [here](https://medium.com/@azalamri3/predicting-flights-delays-using-machine-learning-bfe24999dee4)
 
 ## Installations
 
@@ -44,9 +42,9 @@ In this project, I've tried regression to predict delay time and Classification 
 |**min**|*5.000000 *|-586.000000|-0.000000|
 |**25%**|*210.000000*|-8.000000| 97.000000|
 |**50%**|*709.000000*|10.000000|131.000000|
-|**75%*|*1272.000000*|26.000000|164.000000|
+|**75%**|*1272.000000*|26.000000|164.000000|
+|**max**|*9903.000000*|2018.000000|450.000000|
 
-|**max*|*9903.000000*|2018.000000|450.000000|
 
 2- Supervised Learning approach results:
 
