@@ -16,10 +16,10 @@ This project requires Python 3.x and the following Python libraries installed:
 * matplotlib.pyplot
 
 ## Procedure
-1- I've checked the data and how it looks like: Features types, nulls values, visualizations, descriptive statistics
-2- Cleaning the data: remove unnecessary columns and rows that are outliers (2 rows)
-3- Data Wrangling: did a feature engineering with some columns by separating them into many columns -as much as needed- to come with better features for the analysis. Also, changing the data type of categorical features from categorical variables into dummy/indicator variables.
-4- Implementation of machine learning: 
+- 1- **Expolratory data analysis:** I've checked the data and how it looks like: Features types, nulls values, visualizations, descriptive statistics
+- **2- Cleaning the data:** remove unnecessary columns and rows that are outliers (2 rows)
+- **3- Data Wrangling:** did a feature engineering with some columns by separating them into many columns -as much as needed- to come with better features for the analysis. Also, changing the data type of categorical features from categorical variables into dummy/indicator variables.
+- **4- Implementation of machine learning: 
 - Supervised learning and unsupervised learning algorithms were used in this analysis.
 - Supervised learning: linear regression and random forest regression 
 - Unsupervised learning: logistic regression and random forest classifier
